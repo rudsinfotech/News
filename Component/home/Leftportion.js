@@ -8,6 +8,14 @@ const LeftPortion = () => {
   const perticulerNews = (category, id) => {
     router.push(`/${category}/${id}`);
   };
+
+  const truncateText = (text, limit) => {
+    if (text.length > limit) {
+        return text.substring(0, limit) + '...';
+    }
+    return text;
+};
+
   return (
     <>
       <div className="row">
@@ -36,7 +44,7 @@ const LeftPortion = () => {
                     </a>
                   </div>
                   <h3>
-                    <a href={`/${e.category}/${e.id}`}>{e.title}</a>
+                    <a href={`/${e.category}/${e.id}`}>{truncateText(e.title, 60)}</a>
                   </h3>
                   <a className="read-more" href={`/${e.category}/${e.id}`}>
                     Read More<i className="fal fa-arrow-right"></i>
