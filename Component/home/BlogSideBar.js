@@ -9,6 +9,14 @@ function BlogSideBar() {
   const particularNews = (category, id) => {
     router.push(`/${category}/${id}`);
   };
+
+  const truncateText = (text, limit) => {
+    if (text.length > limit) {
+      return text.substring(0, limit) + "...";
+    }
+    return text;
+  };
+
   return (
     <div className="blog-sidebar">
       <aside className="widget widget-trend-post ">
@@ -18,13 +26,13 @@ function BlogSideBar() {
             return (
               <>
                 <div className="popular-post">
-                  <Image src={data.image} alt="" style={{ width: "70px" }} />
+                  <Image src={data.image} alt="" style={{ width: "100px",height: "65px" }} />
                   <h5>
                     <p
                       className="importantTitle"
                       onClick={() => particularNews(data.category, data.id)}
                     >
-                      {data.title}
+                      {truncateText(data.title, 60)}
                     </p>
                   </h5>
                   <span>{data.time}</span>

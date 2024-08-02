@@ -806,7 +806,7 @@ p {
   font-size: 15px;
   line-height: 20px;
   color: #2c234d;
-  margin: 0 0 12px;
+  margin: 0 30px 12px;
   font-weight: 700;
 }
 
@@ -824,6 +824,7 @@ p {
   line-height: 0.8;
   color: #7e7c87;
   font-weight: 600;
+  margin-left: 30px;
 }
 
 .single-post-area {
