@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import Seo from "@/Component/Seo";
 import Loader from "@/Component/loader";
-const HomeIndex = lazy(() => import("@/Component/home"));
+const HomeIndex = lazy(() => import("@/Component/home/index"));
 
 
 const index = () => {
