@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const LeftPortion = () => {
   const router = useRouter();
   const perticulerNews = (id) => {
-    router.push(`/budget/${id}`)
+    router.push(`/entertainment/${id}`)
   }
   return (
     <>

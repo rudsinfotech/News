@@ -549,7 +549,7 @@ pre code {
 
 @media (min-width:992px) {
   .container {
-    max-width: 960px
+    /* max-width: 960px */
   }
 }
 
@@ -590,16 +590,6 @@ pre code {
   .container-md,
   .container-sm {
     max-width: 100%
-  }
-}
-
-@media (min-width:992px) {
-
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm {
-    max-width: 960px
   }
 }
 

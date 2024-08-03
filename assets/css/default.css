@@ -452,18 +452,18 @@ a {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-  .softstormweb-header_sticky.sticky {
+  .rudsinfotech-header_sticky.sticky {
     padding-right: 10px !important;
   }
 }
 @media (max-width: 767px) {
 
-  .softstormweb-header_sticky.sticky {
+  .rudsinfotech-header_sticky.sticky {
     padding-right: 10px !important;
   }
 }
 
-.softstormweb-header_sticky.sticky {
+.rudsinfotech-header_sticky.sticky {
   position: fixed;
   left: 0;
   top: 0;
@@ -477,7 +477,7 @@ a {
   animation: sticky 1.2s;
 }
 
-.softstormweb-header_sticky.sticky .softstrom_header > ul.nav-list > li:hover .menu-dropdown {
+.rudsinfotech-header_sticky.sticky .softstrom_header > ul.nav-list > li:hover .menu-dropdown {
   top: 70px !important;
 }
 
@@ -537,7 +537,7 @@ a {
   display: block;
   width: 100%;
 }
-.softstormweb-header_sticky.sticky .softstrom_header > ul.nav-list > li:hover .menu-dropdown {
+.rudsinfotech-header_sticky.sticky .softstrom_header > ul.nav-list > li:hover .menu-dropdown {
   top: 70px !important;
 }
 .sticky .nav-list li a.menu-links {
@@ -570,7 +570,7 @@ a {
   color: #0e1133;
 }
 
-.softstorm_insidepage_header {
+/* .softstorm_insidepage_header {
   height: 320px;
   background-color: #f8f9fab5;
   display: flex;
@@ -584,7 +584,7 @@ a {
     display: flex;
     align-items: center;
   }
-}
+} */
 
 
 

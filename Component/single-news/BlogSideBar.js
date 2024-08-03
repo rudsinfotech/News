@@ -4,9 +4,9 @@ import Image from "next/image";
 
 function BlogSideBar() {
   return (
-    <div className="blog-sidebar" >
-      <aside className="widget widget-categories" style={{padding:"0"}}>
-        <Image src={BlogImg1} alt="test image" style={{width:"100%"}}/>
+    <div className="blog-sidebar">
+      <aside className="widget widget-categories" style={{ padding: "0" }}>
+        <div></div>
       </aside>
     </div>
   );

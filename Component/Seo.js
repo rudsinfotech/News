@@ -3,12 +3,13 @@ import image from "../assets/images/logo.webp";
 import Head from "next/head";
 
 const Seo = ({ title, pagedescription, keywords }) => {
-  let url = "https://www.softstorm.in";
+  let url = "https://rudsinfotech.github.io/News/";
   let lasttitle =
-    "SoftStorm - Custom Software Development Service Provider Company in Surat, India";
+    "Gujarati News, Breaking News in Gujarati, ગુજરાતી ન્યૂઝ, ગુજરાતીમાં ટોપ હેડલાઈન્સ";
   let defaultpagedescription =
-    "Trusted Service Provider for AI Tool & iOT Service | Web Application | Mobile Application | Enterprise Solution | Digital Marketing ";
-  let defaultKey = "It Company";
+    "ગુજરાતી ન્યૂઝ, Breaking News in Gujarati, Top Headlines in Gujarati (ગુજરાતીમાં ટોપ હેડલાઈન્સ), Gujarati Latest News (ગુજરાતી લેટેસ્ટ ન્યૂઝ), Today Top News (આજના ટોપ ન્યૂઝ), Gujarati News Today (આજના ગુજરાતી ન્યૂઝ), ગુજરાતી સમાચાર, ગુજરાતી લેટેસ્ટ સમાચાર, આજના ટોપ સમાચાર";
+  let defaultKey =
+    "Gujarati news, Latest Gujarati News, Latest News in Gujarati, Gujarati news live, News Gujarati, Breaking News in Gujarati, Live Gujarati News, News in Gujarati";
 
   return (
     <>
@@ -29,19 +30,19 @@ const Seo = ({ title, pagedescription, keywords }) => {
           property="og:description"
           content={pagedescription ? pagedescription : defaultpagedescription}
         />
-        <meta property="og:site_name" content="SoftStorm Technosys" />
+        <meta property="og:site_name" content="Latest Gujarati News" />
         <meta name="og:keyword" content={keywords ? keywords : defaultKey} />
         <meta property="og:url" content={url} />
         <meta property="og:image" content={image} />
 
-        <meta name="site" content="SoftStorm Technosys Private Limited" />
-        <meta name="copyright" content="SoftStorm Technosys Pvt. Ltd." />
-        <meta name="author" content="SoftStorm Technosys" />
-        <meta name="page-topic" content="SoftStorm Technosys" />
+        <meta name="site" content="Gujarati News" />
+        <meta name="copyright" content="ગુજરાતી ન્યૂઝ" />
+        <meta name="author" content="rudsinfotech" />
+        <meta name="page-topic" content="ગુજરાતી ન્યૂઝ" />
         <meta name="Rating" content="General" />
         <meta name="Robots" content="INDEX,FOLLOW" />
         <meta name="Revisit-after" content="7 Days" />
-        <link rel="canonical" href="softstorm.in" />
+        <link rel="canonical" href={url} />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title ? title : lasttitle} />

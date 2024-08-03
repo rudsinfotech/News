@@ -39,12 +39,12 @@ const Header = ({ action, cartToggle }) => {
     if (isNotFound) {
       // document.querySelector(`.${style.softstormweb_header_1}`).style.display = "none";
       document.querySelector(
-        `.${style.softstormweb_header_area}`
+        `.${style.rudsinfotech_header_area}`
       ).style.display = "none";
     } else {
       // document.querySelector(`.${style.softstormweb_header_1}`).style.display = "flex";
       document.querySelector(
-        `.${style.softstormweb_header_area}`
+        `.${style.rudsinfotech_header_area}`
       ).style.display = "block";
     }
   });
@@ -52,7 +52,7 @@ const Header = ({ action, cartToggle }) => {
   return (
     <>
       <header
-        className={`${style.softstormweb_header_area} softstormweb-header_sticky`}
+        className={`${style.rudsinfotech_header_area} rudsinfotech-header_sticky`}
       >
         <div className="container">
           <div className={style.menu_header}>
@@ -76,7 +76,7 @@ const Header = ({ action, cartToggle }) => {
                   <HeadermainLink href="/business"> Business</HeadermainLink>
                 </li>
                 <li className="megamenu">
-                  <HeadermainLink href="/budget"> Budget </HeadermainLink>
+                  <HeadermainLink href="/world"> world </HeadermainLink>
                 </li>
                 <li className="megamenu">
                   <HeadermainLink href="/entertainment">

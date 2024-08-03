@@ -26,7 +26,7 @@ function BlogSideBar() {
             return (
               <>
                 <div className="popular-post">
-                  <Image src={data.image} alt="" style={{ width: "100px",height: "65px" }} />
+                  <Image src={data.image} alt="" />
                   <h5>
                     <p
                       className="importantTitle"

@@ -6,13 +6,13 @@ import { useRouter } from "next/router";
 const LeftPortion = () => {
   const router = useRouter();
   const perticulerNews = (id) => {
-    router.push(`/budget/${id}`)
+    router.push(`/world/${id}`)
   }
   return (
     <>
       <div className="row">
         {data.map((e) => {
-            if(e.category === 'budget') {
+            if(e.category === 'world') {
                 return (
                   <div className="col-lg-6">
                     <div className="post-item-1" onClick={() => perticulerNews(e.id)}>
@@ -34,9 +34,9 @@ const LeftPortion = () => {
                           </a>
                         </div>
                         <h3>
-                          <a href={`/budget/${e.id}`}>{e.title}</a>
+                          <a href={`/world/${e.id}`}>{e.title}</a>
                         </h3>
-                        <a className="read-more" href={`/budget/${e.id}`}>
+                        <a className="read-more" href={`/world/${e.id}`}>
                           Read More<i className="fal fa-arrow-right"></i>
                         </a>
                       </div>

@@ -80,12 +80,12 @@ function Drawer({ drawer, action, cartToggle }) {
                       </Link>
                     </li>
                     <li
-                      onClick={(e) => handler(e, "budget", size)}
-                      id="budget"
+                      onClick={(e) => handler(e, "world", size)}
+                      id="world"
                       className="menu-item-has-children active"
                     >
-                      <Link scroll={false} href="/budget">
-                        Budget
+                      <Link scroll={false} href="/world">
+                      world
                       </Link>
                     </li>
                     <li

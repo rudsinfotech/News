@@ -132,6 +132,10 @@ li {
   h4 {
     font-size: 18px !important;
   }
+  .importantTitle {
+    line-height: 18px !important;
+    margin-bottom: 7px !important;
+  }
 }
 @media (max-width: 992px) {
   p {
@@ -242,6 +246,13 @@ p {
     font-size: 14px !important;
     margin-left: 10px !important;
   }
+  p {
+    font-size: 15px !important;
+  }
+
+  .popular-post h5 {
+    margin: 0 0 0 30px !important;
+  }
 }
 .handle_address_blick {
   padding-left: 25px;
@@ -320,6 +331,9 @@ p {
   .setAward {
     max-width: 70px;
   }
+  .b-post-details {
+    padding: 20px 15px !important;
+  }
 }
 .menu-block-service {
   display: grid;
@@ -341,29 +355,26 @@ p {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .softstormweb-header_sticky.sticky {
+  .rudsinfotech-header_sticky.sticky {
     padding-right: 10px !important;
+  }
+  .b-post-details {
+    padding: 25px 20px !important;
   }
 }
 @media (max-width: 767px) {
-  .softstormweb-header_sticky.sticky {
+  .rudsinfotech-header_sticky.sticky {
     padding-right: 10px !important;
+  }
+  .b-post-details {
+    padding: 25px 20px !important;
+  }
+  .b-post-details h3 a {
+    font-size: 15px !important;
   }
 }
 
-/* .softstormweb-header_sticky.sticky {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 1010;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 15px 30px 0 #0000000f;
-  padding-top: 0px;
-  animation: sticky 1.2s;
-} */
-
-.softstormweb-header_sticky.sticky
+.rudsinfotech-header_sticky.sticky
   .softstrom_header
   > ul.nav-list
   > li:hover
@@ -427,7 +438,7 @@ p {
   display: block;
   width: 100%;
 }
-.softstormweb-header_sticky.sticky
+.rudsinfotech-header_sticky.sticky
   .softstrom_header
   > ul.nav-list
   > li:hover
@@ -481,23 +492,23 @@ p {
   color: #0e1133;
 }
 
-.softstorm_insidepage_header {
+/* .softstorm_insidepage_header {
   height: 320px;
   background-color: #f8f9fab5;
   display: flex;
   align-items: center;
-}
+} */
 
 @media (max-width: 767px) {
-  .softstorm_insidepage_header {
+  /* .softstorm_insidepage_header {
     height: 230px;
     background-color: #f8f9fab5;
     display: flex;
     align-items: center;
-  }
+  } */
 }
 
-.softstorm_insidepage_titleitem {
+/* .softstorm_insidepage_titleitem {
   margin-top: 110px;
   position: relative;
 }
@@ -506,8 +517,8 @@ p {
   right: 0;
   bottom: -100px;
   width: 160px;
-}
-@media (max-width: 767px) {
+} */
+/* @media (max-width: 767px) {
   .softstorm_insidepage_titleitem .thumb {
     display: none;
   }
@@ -516,8 +527,8 @@ p {
   .softstorm_insidepage_titleitem .thumb {
     display: block;
   }
-}
-.softstorm_insidepage_titleitem span {
+} */
+/* .softstorm_insidepage_titleitem span {
   color: #fff;
   font-weight: 500;
   opacity: 0.7;
@@ -527,8 +538,8 @@ p {
   color: #4f4f4f;
   font-size: 44px;
   font-weight: 700;
-}
-@media (max-width: 767px) {
+} */
+/* @media (max-width: 767px) {
   .softstorm_insidepage_titleitem .title {
     font-size: 26px;
   }
@@ -537,9 +548,9 @@ p {
   .softstorm_insidepage_titleitem .title {
     font-size: 22px !important;
   }
-}
+} */
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+/* @media only screen and (min-width: 576px) and (max-width: 767px) {
   .softstorm_insidepage_titleitem .title {
     font-size: 32px;
   }
@@ -559,7 +570,7 @@ p {
 .softstorm_insidepage_titleitem nav ol li.active {
   color: #fff;
   opacity: 0.8;
-}
+} */
 
 .service-header {
   position: sticky;
@@ -654,7 +665,7 @@ p {
 }
 .b-post-details {
   position: relative;
-  padding: 30px 35px 37px;
+  padding: 25px 25px 30px;
 }
 .b-post-details h3 {
   font-size: 20px;
@@ -694,7 +705,7 @@ p {
 
 .bp-meta a {
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 0.8;
   color: #505056;
   font-weight: 600;
@@ -723,7 +734,7 @@ p {
 
 .blog-sidebar .widget {
   position: relative;
-  border: 1px solid #ebecf1;
+  /* border: 1px solid #ebecf1; */
   border-radius: 10px;
   padding: 15px;
 }
@@ -794,8 +805,8 @@ p {
 }
 
 .popular-post img {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 60px;
   position: absolute;
   border-radius: 3px;
   left: 0;
@@ -806,7 +817,7 @@ p {
   font-size: 15px;
   line-height: 20px;
   color: #2c234d;
-  margin: 0 30px 12px;
+  margin: 0 0 0 30px;
   font-weight: 700;
 }
 
@@ -870,7 +881,6 @@ p {
   margin: 7px 20px 0 0;
 }
 
-
 .post-thumb {
   position: relative;
   margin: 42px 0 35px;
@@ -890,7 +900,6 @@ p {
   margin: 0 0 15px;
 }
 
-
 @media (max-width: 400px) {
   .bp-meta a {
     font-size: 12px !important;
@@ -901,10 +910,20 @@ p {
   .b-post-details {
     padding: 20px;
   }
+  .importantTitle {
+    line-height: 18px !important;
+    margin-bottom: 7px !important;
+  }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 600px) {
   .bp-meta a {
     font-size: 12px !important;
   }
+}
+
+.importantTitle {
+  font-size: 13px !important;
+  line-height: 20px;
+  margin-bottom: 7px !important;
 }

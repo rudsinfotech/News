@@ -6,7 +6,17 @@ const SingleIndex = lazy(() => import("@/Component/single-news"));
 const index = () => {
   return (
     <>
-      <Seo title={""} pagedescription={""} keywords={""} />
+      <Seo
+        title={
+          "Business News, Latest Business News Today, Live News updates from Business"
+        }
+        pagedescription={
+          "Business - Get latest news on Business. Read Breaking News on Business updated and published at બિઝનેસ "
+        }
+        keywords={
+          "Business, News on Business, stories on Business, articles on Business, Business stories at બિઝનેસ, Business news, Business latest news"
+        }
+      />
       <Suspense fallback={<Loader />}>
         <SingleIndex />
       </Suspense>

@@ -45,7 +45,7 @@
   .hidebtn {
     display: none !important;
   }
-  .softstormweb_header_area {
+  .rudsinfotech_header_area {
     padding-top: 0px !important;
   }
   .handlenavigation {
@@ -99,7 +99,7 @@
     padding: 30px 35px 5px !important;
   }
 }
-.softstormweb_header_area {
+.rudsinfotech_header_area {
   backdrop-filter: blur(12px);
   background: rgb(255 255 255 / 60%);
   position: absolute;

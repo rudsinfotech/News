@@ -1,6 +1,6 @@
 export default function StickyMenu() {
     document.addEventListener('scroll', () => {
-        const element = document.querySelector('.softstormweb-header_sticky');
+        const element = document.querySelector('.rudsinfotech-header_sticky');
          if (element) {
             if (document.documentElement.scrollTop > 150) {
                 element.classList.add('sticky');
