@@ -57,7 +57,7 @@ export const data = [
   },
   {
     id: 3,
-    category: "business",
+    category: "sport",
     title: "મનુ ભાકર પાસેથી વધુ એક મેડલની આશા",
     time: "jul 29, 2024",
     important: 1,
@@ -93,7 +93,7 @@ export const data = [
   },
   {
     id: 5,
-    category: "entertainment",
+    category: "sport",
     title: "ભારતમાં રમાશે 2025 એશિયા કપ, જાણો કેવું હશે ફોર્મેટ? આ દેશ 2027 એશિયા કપની યજમાની કરશે",
     time: "jul 29, 2024",
     important: 1,
